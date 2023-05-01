@@ -44,4 +44,6 @@ void swap(listint_t *p, listint_t *c, listint_t **list);
 
 void cocktail_sort_list(listint_t **list);
 
+void counting_sort(int *array, size_t size);
+
 #endif /* SORT_H */
