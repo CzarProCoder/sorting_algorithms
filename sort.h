@@ -36,4 +36,8 @@ void swap_ints(int *a, int *b);
 
 void selection_sort(int *array, size_t size);
 
+void quick_sort(int *array, size_t size);
+
+void _qsort(int *a, int low, int high, int size);
+
 #endif /* SORT_H */
