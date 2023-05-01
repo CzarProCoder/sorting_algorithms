@@ -60,11 +60,13 @@ void heap_sort(int *array, size_t size);
 
 void radix_sort(int *array, size_t size);
 
-void swap_ints(int *a, int *b);
+void print_bitonic(int *arr, int i, int limit);
 
-void bitonic_merge(int *array, size_t size, size_t start, size_t seq, char flow);
+void sort_up(int *arr, int low, int high);
 
-void bitonic_seq(int *array, size_t size, size_t start, size_t seq, char flow);
+void sort_down(int *arr, int low, int high);
+
+void recursion(int *arr, int low, int high, int bool, size_t size);
 
 void bitonic_sort(int *array, size_t size);
 

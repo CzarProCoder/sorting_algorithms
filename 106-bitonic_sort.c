@@ -3,7 +3,7 @@
 #include "sort.h"
 
 /**
- * swap_ints - Swap two integers in an array.
+ * swap_ints - Swap two integers
  * @a: The first integer to swap.
  * @b: The second integer to swap.
  */
@@ -18,9 +18,9 @@ void swap_ints(int *a, int *b)
 }
 
 /**
- * bitonic_merge - Sort a bitonic sequence inside an array of integers.
+ * bitonic_merge - Sort a bitonic sequence in an array of integers.
  * @array: An array of integers.
- * @size: Size of the array.
+ * @size: The Size of the array.
  * @start: Starting index of the sequence in array to sort.
  * @seq: The size of the sequence to sort.
  * @flow: The direction to sort in.
